@@ -1,4 +1,4 @@
-package Baekjoon_10172;
+package BaekJoon_10172;
 
 public class Main {
     public static void main(String arge[]) {

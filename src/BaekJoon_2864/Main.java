@@ -1,10 +1,10 @@
-package Baekjoon_2864;
+package BaekJoon_2864;
 
 
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String arge[]) {
+    public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
         String a = sc.next();
         String b = sc.next();
