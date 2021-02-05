@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="188f853f-cb70-4cf7-825c-47e6e9db8704" name="Default Changelist" comment="백준 3문제 품(2021.02.01)">
       <change afterPath="$PROJECT_DIR$/src/BaekJoon_1062/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BaekJoon_2447/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/BaekJoon_2630/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -25,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BaekJoon_2630/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="48" column="23" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="23" />
+            <state relative-caret-position="492">
+              <caret line="46" selection-start-line="46" selection-end-line="49" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -134,8 +133,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="762" />
-    <option name="y" value="10" />
+    <option name="x" value="700" />
+    <option name="y" value="17" />
     <option name="width" value="1538" />
     <option name="height" value="1024" />
   </component>
@@ -335,7 +334,7 @@
       <workItem from="1612245590714" duration="2419000" />
       <workItem from="1612277226910" duration="7652000" />
       <workItem from="1612330368801" duration="4564000" />
-      <workItem from="1612413383978" duration="9552000" />
+      <workItem from="1612413383978" duration="10468000" />
     </task>
     <task id="LOCAL-00001" summary="백준 3문제 품(2021.01.18)">
       <created>1610936215761</created>
@@ -456,14 +455,22 @@
       <option name="project" value="LOCAL" />
       <updated>1612331161941</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="백준 1문제 품(2021.02.04)">
+      <created>1612424011110</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1612424011111</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="181363000" />
+    <option name="totallyTimeSpent" value="182279000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="10" width="1538" height="1024" extended-state="0" />
+    <frame x="243" y="24" width="1538" height="1024" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27604872" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -475,7 +482,7 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.3247191" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3340564" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.4996232" visible="true" weight="0.3011236" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4996232" weight="0.3011236" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39732143" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -516,7 +523,8 @@
     <MESSAGE value="백준 3문제 품(2021.02.01)" />
     <MESSAGE value="백준 1문제 품(2021.02.02)" />
     <MESSAGE value="백준 여러문제 품(2021.02.03)" />
-    <option name="LAST_COMMIT_MESSAGE" value="백준 여러문제 품(2021.02.03)" />
+    <MESSAGE value="백준 1문제 품(2021.02.04)" />
+    <option name="LAST_COMMIT_MESSAGE" value="백준 1문제 품(2021.02.04)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/io/BufferedReader.java">
@@ -934,8 +942,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BaekJoon_2630/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="48" column="23" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="23" />
+        <state relative-caret-position="492">
+          <caret line="46" selection-start-line="46" selection-end-line="49" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
