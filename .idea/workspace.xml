@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="188f853f-cb70-4cf7-825c-47e6e9db8704" name="Default Changelist" comment="백준 3문제 품(2021.02.01)">
-      <change afterPath="$PROJECT_DIR$/src/BaekJoon_1018/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/BaekJoon_10871/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/BaekJoon_11279/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/BaekJoon_11286/Main.java" afterDir="false" />
@@ -16,7 +15,6 @@
       <change afterPath="$PROJECT_DIR$/src/BaekJoon_1966/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/BaekJoon_2869/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/BaekJoon_9461/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BaekJoon_1436/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BaekJoon_1436/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -37,20 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BaekJoon_17404/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/BaekJoon_1018/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="12" column="23" lean-forward="true" selection-end-line="65" selection-end-column="1" />
+            <state relative-caret-position="152">
+              <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -169,8 +158,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="449" />
-    <option name="y" value="8" />
+    <option name="x" value="285" />
+    <option name="y" value="109" />
     <option name="width" value="1502" />
     <option name="height" value="1020" />
   </component>
@@ -434,7 +423,7 @@
       <workItem from="1614011221530" duration="1470000" />
       <workItem from="1614056830588" duration="2783000" />
       <workItem from="1614087488035" duration="3958000" />
-      <workItem from="1614138046568" duration="1027000" />
+      <workItem from="1614138046568" duration="7703000" />
     </task>
     <task id="LOCAL-00001" summary="백준 3문제 품(2021.01.18)">
       <created>1610936215761</created>
@@ -695,15 +684,21 @@
       <option name="project" value="LOCAL" />
       <updated>1614009675116</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="백준 1문제 품(2021.02.24)">
+      <created>1614140942297</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1614140942298</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="358679000" />
+    <option name="totallyTimeSpent" value="365355000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="449" y="8" width="1502" height="1020" extended-state="0" />
-    <editor active="true" />
+    <frame x="-55" y="18" width="1502" height="1020" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49251497" visible="true" weight="0.29819694" />
       <window_info id="Structure" order="1" sideWeight="0.50748503" side_tool="true" weight="0.2697642" />
@@ -740,7 +735,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="백준 여러문제 품(2021.01.29)" />
     <MESSAGE value="백준 1문제 품(2021.01.30)" />
     <MESSAGE value="백준 2문제 품(2021.01.31)" />
     <MESSAGE value="백준 1문제 품(2021.02.02)" />
@@ -765,16 +759,10 @@
     <MESSAGE value="백준 1문제 품(2021.02.21)" />
     <MESSAGE value="백준 1문제 품(2021.02.22)" />
     <MESSAGE value="백준 1문제 품(2021.02.23)" />
-    <option name="LAST_COMMIT_MESSAGE" value="백준 1문제 품(2021.02.23)" />
+    <MESSAGE value="백준 1문제 품(2021.02.24)" />
+    <option name="LAST_COMMIT_MESSAGE" value="백준 1문제 품(2021.02.24)" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Deque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="332" column="6" selection-start-line="332" selection-start-column="6" selection-end-line="332" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BaekJoon_11866/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
@@ -1143,27 +1131,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BaekJoon_1149/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/BaekJoon_1018/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="34" column="58" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="58" />
+        <state relative-caret-position="304">
+          <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BaekJoon_17404/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/BaekJoon_1149/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        <state relative-caret-position="208">
+          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BaekJoon_1018/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/BaekJoon_17144/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="12" column="23" lean-forward="true" selection-end-line="65" selection-end-column="1" />
+        <state relative-caret-position="736">
+          <caret line="62" column="44" lean-forward="true" selection-start-line="62" selection-start-column="44" selection-end-line="62" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BaekJoon_17404/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
