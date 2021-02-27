@@ -6,7 +6,6 @@
       <change afterPath="$PROJECT_DIR$/src/BaekJoon_11279/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/BaekJoon_11286/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/BaekJoon_1149/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BaekJoon_13305/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/BaekJoon_15552/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/BaekJoon_1655/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/BaekJoon_17404/Main.java" afterDir="false" />
@@ -40,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/src/BaekJoon_17404/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="256">
-              <caret line="16" column="66" lean-forward="true" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
+              <caret line="16" column="66" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -159,8 +158,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="360" />
-    <option name="y" value="29" />
+    <option name="x" value="351" />
+    <option name="y" value="2" />
     <option name="width" value="1502" />
     <option name="height" value="1024" />
   </component>
@@ -173,6 +172,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -195,7 +195,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -426,6 +425,8 @@
       <workItem from="1614087488035" duration="3958000" />
       <workItem from="1614138046568" duration="7703000" />
       <workItem from="1614231644837" duration="5547000" />
+      <workItem from="1614323831135" duration="59000" />
+      <workItem from="1614402950589" duration="599000" />
     </task>
     <task id="LOCAL-00001" summary="백준 3문제 품(2021.01.18)">
       <created>1610936215761</created>
@@ -700,17 +701,23 @@
       <option name="project" value="LOCAL" />
       <updated>1614231860515</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="백준 1문제 품(2021.02.26)">
+      <created>1614323878556</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1614323878557</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="370902000" />
+    <option name="totallyTimeSpent" value="371560000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="127" y="12" width="1502" height="1024" extended-state="0" />
-    <editor active="true" />
+    <frame x="351" y="2" width="1502" height="1024" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49251497" visible="true" weight="0.30235782" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49251497" visible="true" weight="0.3106796" />
       <window_info id="Structure" order="1" sideWeight="0.50748503" side_tool="true" weight="0.2697642" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -745,7 +752,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="백준 2문제 품(2021.01.31)" />
     <MESSAGE value="백준 1문제 품(2021.02.02)" />
     <MESSAGE value="백준 여러문제 품(2021.02.03)" />
     <MESSAGE value="백준 1문제 품(2021.02.04)" />
@@ -770,7 +776,8 @@
     <MESSAGE value="백준 1문제 품(2021.02.23)" />
     <MESSAGE value="백준 1문제 품(2021.02.24)" />
     <MESSAGE value="백준 1문제 품(2021.02.25)" />
-    <option name="LAST_COMMIT_MESSAGE" value="백준 1문제 품(2021.02.25)" />
+    <MESSAGE value="백준 1문제 품(2021.02.26)" />
+    <option name="LAST_COMMIT_MESSAGE" value="백준 1문제 품(2021.02.26)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/BaekJoon_9987/Main.java" />
@@ -826,16 +833,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="47" column="14" lean-forward="true" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BaekJoon_13305/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-366">
-          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1168,10 +1165,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/BaekJoon_13305/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="51" column="22" selection-end-line="74" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/BaekJoon_17404/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
-          <caret line="16" column="66" lean-forward="true" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
+          <caret line="16" column="66" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
