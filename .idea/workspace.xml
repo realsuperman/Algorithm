@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="188f853f-cb70-4cf7-825c-47e6e9db8704" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BaekJoon_2293/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BaekJoon_3067/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,20 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BaekJoon_3067/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BaekJoon_2293/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+            <state relative-caret-position="448">
+              <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -242,7 +231,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BaekJoon_1912.Main" />
       <module name="Algorithm" />
@@ -269,12 +258,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BaekJoon_2805.Main" />
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BaekJoon_14888.Main" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BaekJoon_2805.*" />
+          <option name="PATTERN" value="BaekJoon_14888.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -310,11 +299,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -488,14 +477,7 @@
       <workItem from="1650604778599" duration="4000" />
       <workItem from="1650683041849" duration="5206000" />
       <workItem from="1650718547380" duration="1693000" />
-      <workItem from="1650771849613" duration="1565000" />
-    </task>
-    <task id="LOCAL-00005" summary="백준 여러문제 품(2021.01.22)">
-      <created>1611294200931</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1611294200932</updated>
+      <workItem from="1650771849613" duration="1722000" />
     </task>
     <task id="LOCAL-00006" summary="백준 여러문제 품(2021.01.23)">
       <created>1611369938580</created>
@@ -833,17 +815,24 @@
       <option name="project" value="LOCAL" />
       <updated>1650603720815</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="동전 유형 풀이(2293,3067)">
+      <created>1650775754333</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1650775754334</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="484357000" />
+    <option name="totallyTimeSpent" value="484514000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="398" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48448044" visible="true" weight="0.24726477" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48448044" visible="true" weight="0.24726477" />
       <window_info id="Structure" order="1" sideWeight="0.51551956" side_tool="true" weight="0.13326226" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -853,7 +842,7 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.30996713" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32321042" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49791956" visible="true" weight="0.19277108" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49791956" weight="0.19277108" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39732143" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -878,7 +867,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="백준 1문제 품(2021.02.15)" />
     <MESSAGE value="백준 1문제 품(2021.02.16)" />
     <MESSAGE value="백준 1문제 품(2021.02.17)" />
     <MESSAGE value="백준 1문제 품(2021.02.18)" />
@@ -903,7 +891,8 @@
     <MESSAGE value=" 이분탐색유형 풀이함(1654,2512,2805)" />
     <MESSAGE value="12865번 풀이(Top-down)" />
     <MESSAGE value="1912번 풀이(Bottom-up)" />
-    <option name="LAST_COMMIT_MESSAGE" value="1912번 풀이(Bottom-up)" />
+    <MESSAGE value="동전 유형 풀이(2293,3067)" />
+    <option name="LAST_COMMIT_MESSAGE" value="동전 유형 풀이(2293,3067)" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1258,15 +1247,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BaekJoon_3067/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+        <state relative-caret-position="144">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BaekJoon_2293/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        <state relative-caret-position="448">
+          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
         </state>
       </provider>
     </entry>
