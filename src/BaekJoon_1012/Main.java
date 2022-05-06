@@ -1,13 +1,14 @@
 package BaekJoon_1012;
 
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Main {
     static boolean[][] check;
     static int cnt = 0;
     static int row,column,value;
-    public static void main(String[] args) throws Exception{
+    public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
         int i=0;

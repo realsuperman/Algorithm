@@ -1,10 +1,11 @@
 package BaekJoon_1003;
 
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Main {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) throws IOException {
         int[][] array = new int[41][2];
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         array[0][0] = 1;
