@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="188f853f-cb70-4cf7-825c-47e6e9db8704" name="Default Changelist" comment="2636,2638,9252번 품">
-      <change afterPath="$PROJECT_DIR$/src/BaekJoon_9935/Main.java" afterDir="false" />
+    <list default="true" id="188f853f-cb70-4cf7-825c-47e6e9db8704" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/BaekJoon_2565/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,23 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BaekJoon_2638/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="841">
-              <caret line="112" column="1" selection-start-line="112" selection-start-column="1" selection-end-line="112" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/BaekJoon_9935/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/BaekJoon_2565/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="688">
-              <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+            <state relative-caret-position="512">
+              <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -101,7 +89,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/BaekJoon_7569/Main.java" />
         <option value="$PROJECT_DIR$/src/BaekJoon_2644/Main.java" />
         <option value="$PROJECT_DIR$/src/BaekJoon_1753/Main.java" />
         <option value="$PROJECT_DIR$/src/BaekJoon_11404/BaekJoon_1753/Main.java" />
@@ -152,14 +139,14 @@
         <option value="$PROJECT_DIR$/src/BaekJoon_2636/Main.java" />
         <option value="$PROJECT_DIR$/src/BaekJoon_2638/Main.java" />
         <option value="$PROJECT_DIR$/src/BaekJoon_9935/Main.java" />
+        <option value="$PROJECT_DIR$/src/BaekJoon_2565/Main.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="976" />
-    <option name="height" value="1056" />
+    <option name="x" value="-1" />
+    <option name="width" value="969" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -169,6 +156,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -180,6 +168,12 @@
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="BaekJoon_2565" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -229,7 +223,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -251,11 +244,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="BaekJoon_2565" />
       <recent name="BaekJoon_9935" />
       <recent name="BaekJoon_2638" />
       <recent name="BaekJoon_2636" />
       <recent name="BaekJoon_9252" />
-      <recent name="BaekJoon_15868" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\seong\IdeaProjects\Algorithm\src\BaekJoon_1865" />
@@ -276,13 +269,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BaekJoon_2206.Main" />
+  <component name="RunManager" selected="Application.Main (2)">
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BaekJoon_2565.Main" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BaekJoon_2206.*" />
+          <option name="PATTERN" value="BaekJoon_2565.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -344,11 +337,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -576,14 +569,11 @@
       <workItem from="1652705354799" duration="280000" />
       <workItem from="1652706424113" duration="132000" />
       <workItem from="1652707485384" duration="228000" />
-      <workItem from="1652788376654" duration="24000" />
-    </task>
-    <task id="LOCAL-00025" summary="백준 2문제 품(2021.02.11)">
-      <created>1613023594548</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1613023594549</updated>
+      <workItem from="1652788376654" duration="113000" />
+      <workItem from="1652843053581" duration="3043000" />
+      <workItem from="1652860595831" duration="7000" />
+      <workItem from="1652863909335" duration="201000" />
+      <workItem from="1652872073934" duration="2720000" />
     </task>
     <task id="LOCAL-00026" summary="백준 1문제 품(2021.02.12)">
       <created>1613109704141</created>
@@ -921,17 +911,24 @@
       <option name="project" value="LOCAL" />
       <updated>1652699523729</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="9935번 품">
+      <created>1652788429983</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1652788429984</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="582913000" />
+    <option name="totallyTimeSpent" value="588973000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="976" height="1056" extended-state="0" />
+    <frame x="-1" y="0" width="969" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48317632" visible="true" weight="0.28820962" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48317632" visible="true" weight="0.31573159" />
       <window_info id="Structure" order="1" sideWeight="0.5168237" side_tool="true" weight="0.24070022" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -941,7 +938,7 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.30777657" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32321042" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49791956" weight="0.18438178" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49791956" visible="true" weight="0.18400876" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39649507" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -966,7 +963,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1865번 풀이함" />
     <MESSAGE value="3079번 풀이함" />
     <MESSAGE value=" 이분탐색유형 풀이함(1654,2512,2805)" />
     <MESSAGE value="12865번 풀이(Top-down)" />
@@ -991,20 +987,14 @@
     <MESSAGE value="17070번 품" />
     <MESSAGE value="15868번 품" />
     <MESSAGE value="2636,2638,9252번 품" />
-    <option name="LAST_COMMIT_MESSAGE" value="2636,2638,9252번 품" />
+    <MESSAGE value="9935번 품" />
+    <option name="LAST_COMMIT_MESSAGE" value="9935번 품" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/BaekJoon_1373/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BaekJoon_11657/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -1357,7 +1347,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BaekJoon_2638/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="841">
+        <state relative-caret-position="1744">
           <caret line="112" column="1" selection-start-line="112" selection-start-column="1" selection-end-line="112" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1367,8 +1357,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BaekJoon_9935/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="688">
-          <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+        <state relative-caret-position="192">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BaekJoon_2565/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
         </state>
       </provider>
     </entry>
