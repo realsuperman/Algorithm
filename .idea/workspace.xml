@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="188f853f-cb70-4cf7-825c-47e6e9db8704" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BaekJoon_17779/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BaekJoon_17779/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BaekJoon_17779/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BaekJoon_17779/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="26" column="60" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
+            <state relative-caret-position="201">
+              <caret line="67" selection-start-line="67" selection-end-line="67" />
             </state>
           </provider>
         </entry>
@@ -156,8 +156,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -532,14 +532,9 @@
       <workItem from="1652863909335" duration="201000" />
       <workItem from="1652872073934" duration="3428000" />
       <workItem from="1652880606120" duration="724000" />
-      <workItem from="1652929444226" duration="11675000" />
-    </task>
-    <task id="LOCAL-00027" summary="백준 3문제 품(2021.02.01)">
-      <created>1613143935883</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1613143935883</updated>
+      <workItem from="1652929444226" duration="11949000" />
+      <workItem from="1652950446092" duration="214000" />
+      <workItem from="1652960381377" duration="1454000" />
     </task>
     <task id="LOCAL-00028" summary="백준 1문제 품(2021.02.14)">
       <created>1613280916492</created>
@@ -877,17 +872,24 @@
       <option name="project" value="LOCAL" />
       <updated>1652878303124</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="17779번 품">
+      <created>1652946913033</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1652946913033</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="602080000" />
+    <option name="totallyTimeSpent" value="604022000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4818792" visible="true" weight="0.22538294" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4818792" visible="true" weight="0.23522976" />
       <window_info id="Structure" order="1" sideWeight="0.5181208" side_tool="true" weight="0.22538294" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -922,7 +924,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=" 이분탐색유형 풀이함(1654,2512,2805)" />
     <MESSAGE value="12865번 풀이(Top-down)" />
     <MESSAGE value="1912번 풀이(Bottom-up)" />
     <MESSAGE value="동전 유형 풀이(2293,3067)" />
@@ -947,7 +948,8 @@
     <MESSAGE value="2636,2638,9252번 품" />
     <MESSAGE value="9935번 품" />
     <MESSAGE value="2565번 품" />
-    <option name="LAST_COMMIT_MESSAGE" value="2565번 품" />
+    <MESSAGE value="17779번 품" />
+    <option name="LAST_COMMIT_MESSAGE" value="17779번 품" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1320,8 +1322,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BaekJoon_17779/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="26" column="60" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
+        <state relative-caret-position="201">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
         </state>
       </provider>
     </entry>

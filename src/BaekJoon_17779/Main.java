@@ -66,17 +66,18 @@ public class Main {
             j = j-1;
         }
 
-        boolean start=false;
-        for(i=x+1;i<x+d1+d2;i++){
+        for(i=1;i<=N;i++){
+            int cnt = 0;
             for(j=1;j<=N;j++){
-                if(start){
-                    if(temp[i][j]==5){
-                        start=false;
-                        break;
+                if(temp[i][j]==5) cnt++;
+                if(cnt>=2){
+                    for(int k=j-1;k>=0;k--){
+                        if(temp[i][k]==5) break;
+                        temp[i][k] = 5;
+
                     }
-                    temp[i][j]=5;
+                    break;
                 }
-                if(temp[i][j]==5) start=true;
             }
         }
 
