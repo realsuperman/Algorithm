@@ -41,7 +41,7 @@ public class Main {
                 queue.add(new V(startX,startY,gas,true,0,0,startX,startY));
             }
             String key = Integer.toString(startX)+"-"+Integer.toString(startY);
-            String value = Integer.toString(endX)+Integer.toString(endY);
+            String value = Integer.toString(endX)+"-"+Integer.toString(endY);
             map.put(key,value);
         }
 
@@ -50,7 +50,7 @@ public class Main {
             check[v.x][v.y]=true;
             if(v.check){ // 태운상태
                 String key = Integer.toString(v.startX)+"-"+Integer.toString(v.startY);
-                String value = Integer.toString(v.x)+Integer.toString(v.y);
+                String value = Integer.toString(v.x)+"-"+Integer.toString(v.y);
 
                 if( map.get(key).equals(value) ){ // 목적지에 도달하였나
                     if(v.gas>=0){ // 가스내로 갔는가

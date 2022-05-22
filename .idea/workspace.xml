@@ -27,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BaekJoon_19238/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="59" column="40" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
+            <state relative-caret-position="688">
+              <caret line="61" column="51" selection-start-line="61" selection-start-column="51" selection-end-line="61" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,8 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BaekJoon_19238/Main2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+            <state relative-caret-position="624">
+              <caret line="41" column="39" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -56,8 +56,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>print</find>
-      <find>println</find>
       <find>!!</find>
       <find>index</find>
       <find>Arrays</find>
@@ -86,6 +84,8 @@
       <find>map</find>
       <find>v.dist</find>
       <find>s</find>
+      <find>get(key)</find>
+      <find>println</find>
     </findStrings>
     <replaceStrings>
       <replace>list</replace>
@@ -192,13 +192,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="BaekJoon_19238" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="BaekJoon_19238" type="462c0819:PsiDirectoryNode" />
-              <item name="Main.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -251,7 +244,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main2 (1)">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BaekJoon_16236.Main" />
       <module name="Algorithm" />
@@ -319,8 +312,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main2 (1)" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main2 (1)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main2" />
@@ -574,14 +567,8 @@
       <workItem from="1653199016970" duration="9000" />
       <workItem from="1653201003110" duration="16784000" />
       <workItem from="1653228847053" duration="7086000" />
-      <workItem from="1653237583162" duration="525000" />
-    </task>
-    <task id="LOCAL-00032" summary="백준 1문제 품(2021.02.18)">
-      <created>1613627057030</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1613627057030</updated>
+      <workItem from="1653237583162" duration="1682000" />
+      <workItem from="1653239925481" duration="63000" />
     </task>
     <task id="LOCAL-00033" summary="백준 1문제 품(2021.02.19)">
       <created>1613667864278</created>
@@ -919,11 +906,18 @@
       <option name="project" value="LOCAL" />
       <updated>1653218137889</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="19238번 14시간째 못풀고 있어요. 살려주세요 제발 죽을 것 같아요">
+      <created>1653238133633</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1653238133634</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="657941000" />
+    <option name="totallyTimeSpent" value="659161000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -948,7 +942,7 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.3033954" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32321042" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49791956" visible="true" weight="0.17634173" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49791956" weight="0.17462039" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39649507" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -1004,7 +998,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="3문제 풀이(2504,2294,2800)" />
     <MESSAGE value="14500번 품" />
     <MESSAGE value="3663번 품" />
     <MESSAGE value="1389번 품" />
@@ -1029,7 +1022,8 @@
     <MESSAGE value="17471번 품" />
     <MESSAGE value="16235번 품" />
     <MESSAGE value="19238번 7시간째 못풀고 있어요. 살려주세요 제발 죽을 것 같아요" />
-    <option name="LAST_COMMIT_MESSAGE" value="19238번 7시간째 못풀고 있어요. 살려주세요 제발 죽을 것 같아요" />
+    <MESSAGE value="19238번 14시간째 못풀고 있어요. 살려주세요 제발 죽을 것 같아요" />
+    <option name="LAST_COMMIT_MESSAGE" value="19238번 14시간째 못풀고 있어요. 살려주세요 제발 죽을 것 같아요" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1392,15 +1386,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BaekJoon_19238/Main2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+        <state relative-caret-position="624">
+          <caret line="41" column="39" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BaekJoon_19238/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="59" column="40" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
+        <state relative-caret-position="688">
+          <caret line="61" column="51" selection-start-line="61" selection-start-column="51" selection-end-line="61" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
