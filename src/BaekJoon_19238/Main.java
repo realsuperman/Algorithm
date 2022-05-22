@@ -3,7 +3,9 @@ package BaekJoon_19238;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.PriorityQueue;
 
 public class Main {
     public static void main(String[] args) throws IOException {
@@ -23,7 +25,7 @@ public class Main {
         }
 
         str = br.readLine().split(" ");
-        Queue<V> queue = new PriorityQueue<>();
+        PriorityQueue<V> queue = new PriorityQueue<>();
         queue.add(new V(Integer.parseInt(str[0]),Integer.parseInt(str[1]),gas,false,0,0,0,0));
 
         boolean[][] check = new boolean[N+1][N+1];
@@ -36,10 +38,9 @@ public class Main {
 
             if(startX==queue.peek().x && startY==queue.peek().y){
                 queue.remove();
-                queue = new LinkedList<>();
                 queue.add(new V(startX,startY,gas,true,0,0,startX,startY));
             }
-            String key = Integer.toString(startX)+Integer.toString(startY);
+            String key = Integer.toString(startX)+"-"+Integer.toString(startY);
             String value = Integer.toString(endX)+Integer.toString(endY);
             map.put(key,value);
         }
@@ -48,21 +49,19 @@ public class Main {
             V v = queue.remove();
             check[v.x][v.y]=true;
             if(v.check){ // 태운상태
-                String key = Integer.toString(v.startX)+Integer.toString(v.startY);
+                String key = Integer.toString(v.startX)+"-"+Integer.toString(v.startY);
                 String value = Integer.toString(v.x)+Integer.toString(v.y);
 
                 if( map.get(key).equals(value) ){ // 목적지에 도달하였나
                     if(v.gas>=0){ // 가스내로 갔는가
                         map.remove(key);
                         if(map.size()==0){System.out.println((v.plus*2)+v.gas); return;} // 모든손님태움
-                        //queue = new PriorityQueue<>();
+                        queue = new PriorityQueue<>();
                         check = new boolean[N+1][N+1];
                         check[v.x][v.y] = true;
                         if(map.get(value)!=null){ // 바로 손님이 있음
-                            queue = new LinkedList<>();
                             queue.add(new V(v.x, v.y, (v.plus * 2) + v.gas,  true, 0, 0,v.x,v.y));
                         }else{ // 손님이 없음
-                            queue = new PriorityQueue<>();
                             queue.add(new V(v.x, v.y, (v.plus * 2) + v.gas,  false, 0, 0,0,0));
                         }
                     }else{
@@ -86,14 +85,13 @@ public class Main {
                         check[v.x - 1][v.y] = true;
                         queue.add(new V(v.x - 1, v.y, v.gas - 1, true,v.plus+1,v.dist+1,v.startX,v.startY));
                     }
-                    //if(v.gas-1<0){ System.out.println(-1); return;}
 
                 }
             }else{ // 안태운상태
-                String key = Integer.toString(v.x)+Integer.toString(v.y);
+                String key = Integer.toString(v.x)+"-"+Integer.toString(v.y);
                 if(map.get(key)!=null){ // 고객을 만남
                     if(v.gas>=0){
-                        queue = new LinkedList<>();
+                        queue = new PriorityQueue<>();
                         check = new boolean[N+1][N+1];
                         check[v.x][v.y] = true;
                         queue.add(new V(v.x,v.y,v.gas,true,0,0,v.x,v.y));
@@ -118,7 +116,6 @@ public class Main {
                         check[v.x - 1][v.y] = true;
                         queue.add(new V(v.x - 1, v.y, v.gas - 1, false,0,v.dist+1,0,0));
                     }
-                    //if(v.gas-1<0){ System.out.println(-1); return;}
                 }
             }
         }

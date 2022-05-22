@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="188f853f-cb70-4cf7-825c-47e6e9db8704" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BaekJoon_19238/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BaekJoon_19238/Main2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BaekJoon_19238/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BaekJoon_19238/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,11 +27,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BaekJoon_19238/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="66" column="25" lean-forward="true" selection-end-line="161" selection-end-column="1" />
+            <state relative-caret-position="352">
+              <caret line="59" column="40" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BaekJoon_19238/Main2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -46,9 +56,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>scanner</find>
-      <find>ScriptEngine</find>
-      <find>BufferedReader br = new BufferedReader(new InputStreamReader(System.in));</find>
       <find>print</find>
       <find>println</find>
       <find>!!</find>
@@ -76,6 +83,9 @@
       <find>remove</find>
       <find>v.x+1</find>
       <find>System.out.println(-1);</find>
+      <find>map</find>
+      <find>v.dist</find>
+      <find>s</find>
     </findStrings>
     <replaceStrings>
       <replace>list</replace>
@@ -151,7 +161,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
+    <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -163,6 +173,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -181,12 +192,18 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="BaekJoon_19238" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="BaekJoon_19238" type="462c0819:PsiDirectoryNode" />
+              <item name="Main.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -555,14 +572,9 @@
       <workItem from="1653124029370" duration="2000" />
       <workItem from="1653188424612" duration="7991000" />
       <workItem from="1653199016970" duration="9000" />
-      <workItem from="1653201003110" duration="14274000" />
-    </task>
-    <task id="LOCAL-00031" summary="백준 1문제 품(2021.02.17)">
-      <created>1613541395758</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1613541395758</updated>
+      <workItem from="1653201003110" duration="16784000" />
+      <workItem from="1653228847053" duration="7086000" />
+      <workItem from="1653237583162" duration="525000" />
     </task>
     <task id="LOCAL-00032" summary="백준 1문제 품(2021.02.18)">
       <created>1613627057030</created>
@@ -900,17 +912,33 @@
       <option name="project" value="LOCAL" />
       <updated>1653120186648</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="19238번 7시간째 못풀고 있어요. 살려주세요 제발 죽을 것 같아요">
+      <created>1653218137888</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1653218137889</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="647820000" />
+    <option name="totallyTimeSpent" value="657941000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4818792" visible="true" weight="0.52407" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4818792" weight="0.5229759" />
       <window_info id="Structure" order="1" sideWeight="0.5181208" side_tool="true" weight="0.22538294" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -920,15 +948,15 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.3033954" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32321042" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49791956" visible="true" weight="0.18072289" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49791956" visible="true" weight="0.17634173" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39649507" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32968238" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32951653" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32861805" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32968238" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32861805" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50208044" side_tool="true" weight="0.24382022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24947146" />
@@ -941,7 +969,7 @@
       <window_info anchor="right" id="Database" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4818792" weight="0.52407" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4818792" visible="true" weight="0.5229759" />
       <window_info id="Structure" order="1" sideWeight="0.5181208" side_tool="true" weight="0.22538294" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -951,15 +979,15 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.3033954" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32321042" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49791956" visible="true" weight="0.17895879" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49791956" visible="true" weight="0.17853232" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39649507" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32968238" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32951653" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32861805" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32968238" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32861805" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50208044" side_tool="true" weight="0.24382022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24947146" />
@@ -976,7 +1004,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="연산자 끼워맞추기 풀이(14888)" />
     <MESSAGE value="3문제 풀이(2504,2294,2800)" />
     <MESSAGE value="14500번 품" />
     <MESSAGE value="3663번 품" />
@@ -1001,7 +1028,8 @@
     <MESSAGE value="17779번 품(영역 조정 부분 수정 함)" />
     <MESSAGE value="17471번 품" />
     <MESSAGE value="16235번 품" />
-    <option name="LAST_COMMIT_MESSAGE" value="16235번 품" />
+    <MESSAGE value="19238번 7시간째 못풀고 있어요. 살려주세요 제발 죽을 것 같아요" />
+    <option name="LAST_COMMIT_MESSAGE" value="19238번 7시간째 못풀고 있어요. 살려주세요 제발 죽을 것 같아요" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1364,18 +1392,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BaekJoon_19238/Main2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="63" column="19" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BaekJoon_19238/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="66" column="25" lean-forward="true" selection-end-line="161" selection-end-column="1" />
+        <state relative-caret-position="352">
+          <caret line="59" column="40" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
