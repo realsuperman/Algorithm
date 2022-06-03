@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Main {
-    public static int[] dice = new int[6];
+    public static int[] dice = new int[7];
     public static int x,y,N,M;
     public static int[][] array;
     public static StringBuilder sb = new StringBuilder();
@@ -63,40 +63,40 @@ public class Main {
             }
         }
         if (array[x][y] == 0) {
-            array[x][y] = dice[1];
+            array[x][y] = dice[6];
         }
         else {
-            dice[1] = array[x][y];
+            dice[6] = array[x][y];
             array[x][y] = 0;
         }
-        System.out.println(dice[0]);
+        System.out.println(dice[1]);
     }
 
     public static void change(int d){
-        int temp = dice[0];
+        int temp = dice[1];
         if (d == 1) {
-            dice[0] = dice[3];
-            dice[3] = dice[1];
-            dice[1] = dice[2];
-            dice[2] = temp;
-        }
-        else if (d == 2) {
-            dice[0] = dice[2];
-            dice[2] = dice[1];
-            dice[1] = dice[3];
+            dice[1] = dice[4];
+            dice[4] = dice[6];
+            dice[6] = dice[3];
             dice[3] = temp;
         }
-        else if (d == 3) {
-            dice[0] = dice[4];
-            dice[4] = dice[1];
-            dice[1] = dice[5];
-            dice[5] = temp;
-        }
-        else if (d == 4) {
-            dice[0] = dice[5];
-            dice[5] = dice[1];
-            dice[1] = dice[4];
+        else if (d == 2) {
+            dice[1] = dice[3];
+            dice[3] = dice[6];
+            dice[6] = dice[4];
             dice[4] = temp;
+        }
+        else if (d == 3) {
+            dice[1] = dice[5];
+            dice[5] = dice[6];
+            dice[6] = dice[2];
+            dice[2] = temp;
+        }
+        else {
+            dice[1] = dice[2];
+            dice[2] = dice[6];
+            dice[6] = dice[5];
+            dice[5] = temp;
         }
     }
 }
