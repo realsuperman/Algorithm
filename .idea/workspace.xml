@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="188f853f-cb70-4cf7-825c-47e6e9db8704" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BaekJoon_1202/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BaekJoon_2812/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BaekJoon_11559/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BaekJoon_1374/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BaekJoon_1379/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BaekJoon_3055/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,23 +27,45 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BaekJoon_1202/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/BaekJoon_1379/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1040">
-              <caret line="67" column="1" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
+            <state relative-caret-position="831">
+              <caret line="77" column="1" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
               <folding>
-                <element signature="e#1825#1826#0" expanded="true" />
-                <element signature="e#1868#1869#0" expanded="true" />
+                <element signature="e#1790#1791#0" expanded="true" />
+                <element signature="e#1831#1832#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/BaekJoon_2812/Main.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BaekJoon_1374/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="688">
-              <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+            <state relative-caret-position="831">
+              <caret line="77" column="1" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
+              <folding>
+                <element signature="e#1792#1793#0" expanded="true" />
+                <element signature="e#1833#1834#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BaekJoon_3055/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="831">
+              <caret line="76" column="1" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BaekJoon_11559/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="831">
+              <caret line="122" selection-start-line="122" selection-end-line="122" />
             </state>
           </provider>
         </entry>
@@ -109,10 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/BaekJoon_3273/Main.java" />
-        <option value="$PROJECT_DIR$/src/BaekJoon_2467/Main.java" />
-        <option value="$PROJECT_DIR$/src/BaekJoon_14923/Main.java" />
-        <option value="$PROJECT_DIR$/src/BaekJoon_9019/Main.java" />
         <option value="$PROJECT_DIR$/src/BaekJoon_1806/Main.java" />
         <option value="$PROJECT_DIR$/src/BaekJoon_15683/Main.java" />
         <option value="$PROJECT_DIR$/src/BaekJoon_5427/Main.java" />
@@ -160,6 +180,10 @@
         <option value="$PROJECT_DIR$/src/BaekJoon_1202/Main.java" />
         <option value="$PROJECT_DIR$/src/BaekJoon_282/Main.java" />
         <option value="$PROJECT_DIR$/src/BaekJoon_2812/Main.java" />
+        <option value="$PROJECT_DIR$/src/BaekJoon_1379/Main.java" />
+        <option value="$PROJECT_DIR$/src/BaekJoon_1374/Main.java" />
+        <option value="$PROJECT_DIR$/src/BaekJoon_3055/Main.java" />
+        <option value="$PROJECT_DIR$/src/BaekJoon_11559/Main.java" />
       </list>
     </option>
   </component>
@@ -176,6 +200,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -247,6 +273,18 @@
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="BaekJoon_1339" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="BaekJoon_1374" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="BaekJoon_1379" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -361,6 +399,12 @@
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="BaekJoon_3055" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="BaekJoon_4796" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -380,6 +424,12 @@
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="BaekJoon_11052" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="BaekJoon_11559" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -490,8 +540,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -513,11 +561,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="BaekJoon_11559" />
+      <recent name="BaekJoon_3055" />
+      <recent name="BaekJoon_1374" />
+      <recent name="BaekJoon_1379" />
       <recent name="BaekJoon_2812" />
-      <recent name="BaekJoon_282" />
-      <recent name="BaekJoon_1202" />
-      <recent name="BaekJoon_1339" />
-      <recent name="BaekJoon_4796" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\seong\IdeaProjects\Algorithm\src\BaekJoon_19238" />
@@ -922,14 +970,8 @@
       <workItem from="1656126274933" duration="9042000" />
       <workItem from="1656153947730" duration="14000" />
       <workItem from="1656213409882" duration="8762000" />
-      <workItem from="1656329449442" duration="44000" />
-    </task>
-    <task id="LOCAL-00071" summary="17070번 품">
-      <created>1652504901322</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1652504901323</updated>
+      <workItem from="1656329449442" duration="84000" />
+      <workItem from="1656415714313" duration="641000" />
     </task>
     <task id="LOCAL-00072" summary="15868번 품">
       <created>1652593403595</created>
@@ -1267,11 +1309,18 @@
       <option name="project" value="LOCAL" />
       <updated>1656223498709</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="1202,2812번 품">
+      <created>1656329520444</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1656329520445</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="870025000" />
+    <option name="totallyTimeSpent" value="870706000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1286,7 +1335,7 @@
     <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.47916666" visible="true" weight="0.34354487" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.47916666" visible="true" weight="0.3512035" />
       <window_info id="Structure" order="1" sideWeight="0.5208333" side_tool="true" weight="0.21334793" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1352,7 +1401,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20055번 품" />
     <MESSAGE value="2146번 품" />
     <MESSAGE value="투포인터 2467,3273번 품" />
     <MESSAGE value="14923번 품" />
@@ -1377,44 +1425,14 @@
     <MESSAGE value="10819,1182,1715,2468번 품" />
     <MESSAGE value="17071번 품" />
     <MESSAGE value="그리디 유형 품(1339,1439,16953,4796)" />
-    <option name="LAST_COMMIT_MESSAGE" value="그리디 유형 품(1339,1439,16953,4796)" />
+    <MESSAGE value="1202,2812번 품" />
+    <option name="LAST_COMMIT_MESSAGE" value="1202,2812번 품" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/BaekJoon_15683/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="841">
-          <caret line="122" column="45" selection-start-line="122" selection-start-column="45" selection-end-line="122" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BaekJoon_19238/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="149" column="28" lean-forward="true" selection-start-line="149" selection-start-column="28" selection-end-line="149" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BaekJoon_5427/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="59" column="52" selection-start-line="59" selection-start-column="52" selection-end-line="59" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BaekJoon_2644/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="39" column="32" lean-forward="true" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BaekJoon_14502/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1440">
@@ -1751,12 +1769,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BaekJoon_282/Main.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BaekJoon_282/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/BaekJoon_1202/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1040">
+        <state relative-caret-position="1008">
           <caret line="67" column="1" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
           <folding>
             <element signature="e#1825#1826#0" expanded="true" />
@@ -1767,8 +1783,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BaekJoon_2812/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="688">
+        <state relative-caret-position="672">
           <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BaekJoon_1379/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="831">
+          <caret line="77" column="1" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
+          <folding>
+            <element signature="e#1790#1791#0" expanded="true" />
+            <element signature="e#1831#1832#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BaekJoon_1374/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="831">
+          <caret line="77" column="1" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
+          <folding>
+            <element signature="e#1792#1793#0" expanded="true" />
+            <element signature="e#1833#1834#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BaekJoon_3055/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="831">
+          <caret line="76" column="1" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BaekJoon_11559/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="831">
+          <caret line="122" selection-start-line="122" selection-end-line="122" />
         </state>
       </provider>
     </entry>
