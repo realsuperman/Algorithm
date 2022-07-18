@@ -14,12 +14,12 @@ public class Main {
         for(int i=0;i<str.length;i++) array[i]= Integer.parseInt(str[i]);
 
         Arrays.sort(array);
+        int sum = array[0];
+        if(array[0]>1){ System.out.println(1); return;}
 
-        int sum = 0;
-
-        for(int i=0;i<N;i++){
-            if(sum+1<array[i]) break;
-            sum+=array[i];
+        for(int i=1;i<N;i++){
+            if((sum+1)-array[i]>=0) sum+=array[i];
+            else break;
         }
         System.out.println(sum+1);
     }
