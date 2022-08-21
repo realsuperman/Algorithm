@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="188f853f-cb70-4cf7-825c-47e6e9db8704" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Programmers_candidateKey/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Programmers_equalQueue/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Programmers_fatigue/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Programmers_binaryTransformationRepeat/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Programmers_cache/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Programmers_skillTree/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Programmers_triangularSnail/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Programmers_twoOrLessDifferentBits/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Programmers_vowelDictionary/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,28 +29,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Programmers_equalQueue/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/BaekJoon_12851/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+            <state relative-caret-position="160">
+              <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Programmers_fatigue/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/Programmers_cache/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+            <state relative-caret-position="560">
+              <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Programmers_binaryTransformationRepeat/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="592">
+              <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Programmers_candidateKey/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/Programmers_skillTree/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="831">
-              <caret line="87" column="1" selection-start-line="87" selection-start-column="1" selection-end-line="87" selection-end-column="1" />
+            <state relative-caret-position="368">
+              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -120,13 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/BaekJoon_2579/Main.java" />
-        <option value="$PROJECT_DIR$/src/BaekJoon_10844/Main2.java" />
-        <option value="$PROJECT_DIR$/src/BaekJoon_10844/Main.java" />
-        <option value="$PROJECT_DIR$/src/BaekJoon_2156/Main.java" />
-        <option value="$PROJECT_DIR$/src/BaekJoon_11048/Main.java" />
-        <option value="$PROJECT_DIR$/src/BaekJoon_11057/Main.java" />
-        <option value="$PROJECT_DIR$/src/BaekJoon_2096/Main.java" />
         <option value="$PROJECT_DIR$/src/BaekJoon_11722/Main.java" />
         <option value="$PROJECT_DIR$/src/BaekJoon_2193/Main.java" />
         <option value="$PROJECT_DIR$/src/BaekJoon_1699/Main2.java" />
@@ -171,6 +176,13 @@
         <option value="$PROJECT_DIR$/src/Programmers_equalQueue/Main.java" />
         <option value="$PROJECT_DIR$/src/Programmers_fatigue/Solution.java" />
         <option value="$PROJECT_DIR$/src/Programmers_candidateKey/Solution.java" />
+        <option value="$PROJECT_DIR$/src/BaekJoon_12851/Main.java" />
+        <option value="$PROJECT_DIR$/src/Programmers_triangularSnail/Solution.java" />
+        <option value="$PROJECT_DIR$/src/Programmers_twoOrLessDifferentBits/Solution.java" />
+        <option value="$PROJECT_DIR$/src/Programmers_vowelDictionary/Solution.java" />
+        <option value="$PROJECT_DIR$/src/Programmers_cache/Solution.java" />
+        <option value="$PROJECT_DIR$/src/Programmers_binaryTransformationRepeat/Solution.java" />
+        <option value="$PROJECT_DIR$/src/Programmers_skillTree/Solution.java" />
       </list>
     </option>
   </component>
@@ -429,6 +441,19 @@
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="BaekJoon_12851" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="BaekJoon_12851" type="462c0819:PsiDirectoryNode" />
+              <item name="Main.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="BaekJoon_15658" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -521,6 +546,18 @@
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Programmers_binaryTransformationRepeat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Programmers_cache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Programmers_candidateKey" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -534,6 +571,24 @@
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Programmers_fatigue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Programmers_skillTree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Programmers_twoOrLessDifferentBits" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Programmers_vowelDictionary" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -563,11 +618,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="Programmers_candidateKey" />
-      <recent name="Programmers_fatigue" />
-      <recent name="programmers_equalQueue" />
-      <recent name="BaekJoon_11060" />
-      <recent name="BaekJoon_17626" />
+      <recent name="Programmers_skillTree" />
+      <recent name="Programmers_binaryTransformationRepeat" />
+      <recent name="Programmers_cache" />
+      <recent name="Programmers_vowelDictionary" />
+      <recent name="Programmers_twoOrLessDifferentBits" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\seong\IdeaProjects\Algorithm\src\BaekJoon_13549" />
@@ -589,7 +644,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main (4)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BaekJoon_17626.Main" />
       <module name="Algorithm" />
@@ -629,12 +684,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BaekJoon_1303.Main" />
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BaekJoon_12851.Main" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BaekJoon_1303.*" />
+          <option name="PATTERN" value="BaekJoon_12851.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -657,11 +712,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -1102,14 +1157,9 @@
       <workItem from="1660794846140" duration="2000" />
       <workItem from="1660798224094" duration="15143000" />
       <workItem from="1660878092822" duration="13987000" />
-      <workItem from="1660988412203" duration="119000" />
-    </task>
-    <task id="LOCAL-00129" summary="3085.2573번 품">
-      <created>1656999572075</created>
-      <option name="number" value="00129" />
-      <option name="presentableId" value="LOCAL-00129" />
-      <option name="project" value="LOCAL" />
-      <updated>1656999572076</updated>
+      <workItem from="1660988412203" duration="151000" />
+      <workItem from="1661069049409" duration="89000" />
+      <workItem from="1661077355989" duration="760000" />
     </task>
     <task id="LOCAL-00130" summary="16988번 품">
       <created>1657086126815</created>
@@ -1447,11 +1497,18 @@
       <option name="project" value="LOCAL" />
       <updated>1660894843540</updated>
     </task>
-    <option name="localTasksCounter" value="178" />
+    <task id="LOCAL-00178" summary="프로그래머스 3문제 및 SQL 관련 문제 많이 품">
+      <created>1660988553887</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1660988553887</updated>
+    </task>
+    <option name="localTasksCounter" value="179" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1314090000" />
+    <option name="totallyTimeSpent" value="1314971000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1466,7 +1523,7 @@
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.47916666" visible="true" weight="0.34792122" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.47916666" visible="true" weight="0.35557988" />
       <window_info id="Structure" order="1" sideWeight="0.5208333" side_tool="true" weight="0.21334793" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1497,7 +1554,7 @@
       <window_info anchor="right" id="Database" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.47916666" visible="true" weight="0.34792122" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.47916666" visible="true" weight="0.35557988" />
       <window_info id="Structure" order="1" sideWeight="0.5208333" side_tool="true" weight="0.21334793" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1532,7 +1589,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="프로그래머스 실전 대비 모의고사 3문제 품(3/4)" />
     <MESSAGE value="2234번 품" />
     <MESSAGE value="19583,4358,4963,7490번 품" />
     <MESSAGE value="2002,16120번 품" />
@@ -1557,62 +1613,14 @@
     <MESSAGE value="15988,16194,1965,9065번 품" />
     <MESSAGE value="11724,15658,16197,18111,18428,2210,5014번 품" />
     <MESSAGE value="11060,1303,1926,2688,9507번 품" />
-    <option name="LAST_COMMIT_MESSAGE" value="11060,1303,1926,2688,9507번 품" />
+    <MESSAGE value="프로그래머스 3문제 및 SQL 관련 문제 많이 품" />
+    <option name="LAST_COMMIT_MESSAGE" value="프로그래머스 3문제 및 SQL 관련 문제 많이 품" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/BaekJoon_11659/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BaekJoon_1743/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BaekJoon_1052/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Programmers_8/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Programmers_7/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Programmers_10/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/Programmers_9/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BaekJoon_21736/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
@@ -1903,8 +1911,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Programmers_equalQueue/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        <state relative-caret-position="192">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -1917,8 +1925,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Programmers_candidateKey/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="831">
-          <caret line="87" column="1" selection-start-line="87" selection-start-column="1" selection-end-line="87" selection-end-column="1" />
+        <state relative-caret-position="16">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Programmers_triangularSnail/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1072">
+          <caret line="67" column="1" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Programmers_twoOrLessDifferentBits/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Programmers_vowelDictionary/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BaekJoon_12851/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Programmers_cache/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Programmers_binaryTransformationRepeat/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Programmers_skillTree/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
         </state>
       </provider>
     </entry>
