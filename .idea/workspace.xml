@@ -2,14 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="188f853f-cb70-4cf7-825c-47e6e9db8704" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Programmers_12980/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Programmers_17679/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Programmers_17683/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Programmers_17684/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Programmers_17686/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Programmers_87390/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Programmers_92341/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers_binaryTransformationRepeat/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programmers_70129/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers_cache/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programmers_17680/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers_candidateKey/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programmers_42890/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers_creatingJadenCaseStrings/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programmers_12951/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers_eatTheGround/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programmers_12913/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers_equalQueue/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programmers_118667/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers_fatigue/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programmers_87946/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers_lengthOfVisit/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programmers_49994/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers_longJump/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programmers_12914/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers_nextBigNumber/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programmers_12911/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers_representationOfNumbers/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programmers_12924/Solution.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,15 +33,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Programmers_92341/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+            <state relative-caret-position="16">
+              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
               <folding>
                 <element signature="e#2313#2314#0" expanded="true" />
                 <element signature="e#2361#2362#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Programmers_12924/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="32">
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -110,7 +123,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Programmers_118666/Solution.java" />
         <option value="$PROJECT_DIR$/src/Programmers_92334/Solution.java" />
         <option value="$PROJECT_DIR$/src/Programmers_12906/Solution.java" />
         <option value="$PROJECT_DIR$/src/Programmers_77484/Solution.java" />
@@ -161,11 +173,12 @@
         <option value="$PROJECT_DIR$/src/Programmers_17683/Solution.java" />
         <option value="$PROJECT_DIR$/src/Programmers_17686/Solution.java" />
         <option value="$PROJECT_DIR$/src/Programmers_92341/Solution.java" />
+        <option value="$PROJECT_DIR$/src/Programmers_12924/Solution.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-4" />
+    <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -177,7 +190,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -812,79 +824,6 @@
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Programmers_binaryTransformationRepeat" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Programmers_cache" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Programmers_candidateKey" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Programmers_candidateKey" type="462c0819:PsiDirectoryNode" />
-              <item name="Solution.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Programmers_creatingJadenCaseStrings" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Programmers_eatTheGround" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Programmers_equalQueue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Programmers_fatigue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Programmers_lengthOfVisit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Programmers_longJump" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Programmers_nextBigNumber" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Programmers_representationOfNumbers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Programmers_skillTree" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -903,6 +842,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1474,14 +1414,8 @@
       <workItem from="1661331282125" duration="295000" />
       <workItem from="1661416226727" duration="385000" />
       <workItem from="1661436167004" duration="316000" />
-      <workItem from="1661514644714" duration="679000" />
-    </task>
-    <task id="LOCAL-00135" summary="16637,16638번 품">
-      <created>1657520886490</created>
-      <option name="number" value="00135" />
-      <option name="presentableId" value="LOCAL-00135" />
-      <option name="project" value="LOCAL" />
-      <updated>1657520886490</updated>
+      <workItem from="1661514644714" duration="718000" />
+      <workItem from="1661575677664" duration="868000" />
     </task>
     <task id="LOCAL-00136" summary="17406번 품">
       <created>1657605102369</created>
@@ -1819,11 +1753,18 @@
       <option name="project" value="LOCAL" />
       <updated>1661416612243</updated>
     </task>
-    <option name="localTasksCounter" value="184" />
+    <task id="LOCAL-00184" summary="프로그래머스 여러문제 품">
+      <created>1661515361792</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
+      <option name="project" value="LOCAL" />
+      <updated>1661515361793</updated>
+    </task>
+    <option name="localTasksCounter" value="185" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1317252000" />
+    <option name="totallyTimeSpent" value="1318159000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1835,10 +1776,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="0" width="974" height="1047" extended-state="1" />
-    <editor active="true" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.47916666" visible="true" weight="0.25054705" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.47916666" visible="true" weight="0.2560175" />
       <window_info id="Structure" order="1" sideWeight="0.5208333" side_tool="true" weight="0.21334793" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1936,13 +1876,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Programmers_118666/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Programmers_92334/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
@@ -2296,12 +2229,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Programmers_92341/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        <state relative-caret-position="16">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
           <folding>
             <element signature="e#2313#2314#0" expanded="true" />
             <element signature="e#2361#2362#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Programmers_12924/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>

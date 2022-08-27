@@ -1,4 +1,4 @@
-package Programmers_lengthOfVisit;
+package Programmers_49994;
 
 import java.util.*;
 

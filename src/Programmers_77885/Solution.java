@@ -1,4 +1,4 @@
-package Programmers_twoOrLessDifferentBits;
+package Programmers_77885;
 
 import java.util.*;
 class Solution {

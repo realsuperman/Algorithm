@@ -1,4 +1,4 @@
-package Programmers_longJump;
+package Programmers_12914;
 
 class Solution {
     public long solution(int n) {

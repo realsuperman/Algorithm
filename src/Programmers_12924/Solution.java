@@ -1,4 +1,4 @@
-package Programmers_representationOfNumbers;
+package Programmers_12924;
 
 class Solution {
     public int solution(int n) {

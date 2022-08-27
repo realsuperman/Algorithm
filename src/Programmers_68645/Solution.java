@@ -1,4 +1,4 @@
-package Programmers_triangularSnail;
+package Programmers_68645;
 
 class Solution {
     public int[] solution(int n) {

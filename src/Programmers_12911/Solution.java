@@ -1,4 +1,4 @@
-package Programmers_nextBigNumber;
+package Programmers_12911;
 
 class Solution {
     public int solution(int n) {

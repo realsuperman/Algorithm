@@ -1,4 +1,4 @@
-package Programmers_vowelDictionary;
+package Programmers_84512;
 
 import java.util.*;
 

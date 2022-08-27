@@ -1,4 +1,4 @@
-package Programmers_fatigue;
+package Programmers_87946;
 
 import java.util.*;
 class Solution {

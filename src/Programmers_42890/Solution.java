@@ -1,4 +1,4 @@
-package Programmers_candidateKey;
+package Programmers_42890;
 
 import java.util.*;
 class Solution {

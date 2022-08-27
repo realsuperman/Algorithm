@@ -1,4 +1,4 @@
-package Programmers_creatingJadenCaseStrings;
+package Programmers_12951;
 
 class Solution {
     public String solution(String s) {

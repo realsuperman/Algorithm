@@ -1,4 +1,4 @@
-package Programmers_equalQueue;
+package Programmers_118667;
 
 import java.util.*;
 class Solution {
