@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="188f853f-cb70-4cf7-825c-47e6e9db8704" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Programmers_42627/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Programmers_42895/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Programmers_43163/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Programmers_49189/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Programmers_49191/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Programmers_42579/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Programmers_42884/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -40,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/src/Programmers_42895/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="368">
-              <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -57,7 +54,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Programmers_42627/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="753">
+            <state relative-caret-position="784">
               <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
             </state>
           </provider>
@@ -72,11 +69,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Programmers_43163/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="448">
               <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Programmers_42579/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="640">
+              <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Programmers_42884/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -149,8 +164,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Programmers_12969/Solution.java" />
-        <option value="$PROJECT_DIR$/src/Programmers_86051/Solution.java" />
         <option value="$PROJECT_DIR$/src/Programmers_76501/Solution.java" />
         <option value="$PROJECT_DIR$/src/Programmers_70128/Solution.java" />
         <option value="$PROJECT_DIR$/src/Programmers_12977/Solution.java" />
@@ -200,11 +213,13 @@
         <option value="$PROJECT_DIR$/src/Programmers_42627/Solution.java" />
         <option value="$PROJECT_DIR$/src/Programmers_49191/Solution.java" />
         <option value="$PROJECT_DIR$/src/Programmers_43163/Solution.java" />
+        <option value="$PROJECT_DIR$/src/Programmers_42579/Solution.java" />
+        <option value="$PROJECT_DIR$/src/Programmers_42884/Solution.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
+    <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -216,6 +231,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -239,7 +255,19 @@
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Programmers_42579" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Programmers_42627" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Programmers_42884" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -269,7 +297,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -294,11 +321,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Programmers_42884" />
+      <recent name="Programmers_42579" />
       <recent name="Programmers_43163" />
       <recent name="Programmers_49191" />
       <recent name="Programmers_42627" />
-      <recent name="Programmers_49189" />
-      <recent name="Programmers_42895" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\seong\IdeaProjects\Algorithm\src\BaekJoon_13549" />
@@ -846,14 +873,8 @@
       <workItem from="1661670268555" duration="33000" />
       <workItem from="1661749677971" duration="13000" />
       <workItem from="1661750342320" duration="1389000" />
-      <workItem from="1661837020808" duration="96000" />
-    </task>
-    <task id="LOCAL-00138" summary="1038,16496번 품">
-      <created>1657781138781</created>
-      <option name="number" value="00138" />
-      <option name="presentableId" value="LOCAL-00138" />
-      <option name="project" value="LOCAL" />
-      <updated>1657781138781</updated>
+      <workItem from="1661837020808" duration="130000" />
+      <workItem from="1661918588617" duration="639000" />
     </task>
     <task id="LOCAL-00139" summary="2109,15659번 품">
       <created>1657866990338</created>
@@ -1191,11 +1212,18 @@
       <option name="project" value="LOCAL" />
       <updated>1661752530679</updated>
     </task>
-    <option name="localTasksCounter" value="187" />
+    <task id="LOCAL-00187" summary="프로그래머스 여러문제 품">
+      <created>1661837137216</created>
+      <option name="number" value="00187" />
+      <option name="presentableId" value="LOCAL-00187" />
+      <option name="project" value="LOCAL" />
+      <updated>1661837137218</updated>
+    </task>
+    <option name="localTasksCounter" value="188" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1319800000" />
+    <option name="totallyTimeSpent" value="1320473000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1207,10 +1235,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.47916666" visible="true" weight="0.26148796" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.47916666" visible="true" weight="0.26695842" />
       <window_info id="Structure" order="1" sideWeight="0.5208333" side_tool="true" weight="0.21334793" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1299,29 +1327,15 @@
     <MESSAGE value="프로그래머스 여러 문제 및 SQL 관련 문제 많이 품" />
     <MESSAGE value="프로그래머스 여러 문제 많이 품" />
     <MESSAGE value="프로그래머스 여러 문제 및 sql 여러문제 품" />
-    <MESSAGE value="프로그래머스 여러문제 품" />
     <MESSAGE value="11123번 품" />
-    <option name="LAST_COMMIT_MESSAGE" value="11123번 품" />
+    <MESSAGE value="프로그래머스 여러문제 품" />
+    <option name="LAST_COMMIT_MESSAGE" value="프로그래머스 여러문제 품" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Programmers_86051/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Programmers_76501/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Programmers_70128/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
@@ -1645,7 +1659,7 @@
     <entry file="file://$PROJECT_DIR$/src/Programmers_42895/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
-          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1658,7 +1672,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Programmers_42627/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="753">
+        <state relative-caret-position="784">
           <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
         </state>
       </provider>
@@ -1674,6 +1688,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
           <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Programmers_42579/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Programmers_42884/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
         </state>
       </provider>
     </entry>
