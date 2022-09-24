@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="188f853f-cb70-4cf7-825c-47e6e9db8704" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BaekJoon_2292/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BaekJoon_7682/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BaekJoon_9663/Main2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,8 +25,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BaekJoon_7682/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+            <state relative-caret-position="32">
+              <caret line="7" selection-start-line="7" selection-end-line="9" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -156,7 +156,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -169,7 +169,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -253,6 +252,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -303,26 +303,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BaekJoon_2292.Main" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="BaekJoon_2292.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BaekJoon_12851.Main" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BaekJoon_12851.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -369,13 +356,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Programmers.Solution" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Programmers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main2" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -832,14 +832,8 @@
       <workItem from="1661837020808" duration="130000" />
       <workItem from="1661918588617" duration="686000" />
       <workItem from="1663251655155" duration="664000" />
-      <workItem from="1663305816930" duration="5452000" />
-    </task>
-    <task id="LOCAL-00140" summary="2151번 품">
-      <created>1657952808965</created>
-      <option name="number" value="00140" />
-      <option name="presentableId" value="LOCAL-00140" />
-      <option name="project" value="LOCAL" />
-      <updated>1657952808966</updated>
+      <workItem from="1663305816930" duration="5694000" />
+      <workItem from="1663979346172" duration="49000" />
     </task>
     <task id="LOCAL-00141" summary="13164,17135번 품">
       <created>1658036187576</created>
@@ -1177,11 +1171,18 @@
       <option name="project" value="LOCAL" />
       <updated>1661920162820</updated>
     </task>
-    <option name="localTasksCounter" value="189" />
+    <task id="LOCAL-00189" summary="2292,7682,9663번 품">
+      <created>1663315179923</created>
+      <option name="number" value="00189" />
+      <option name="presentableId" value="LOCAL-00189" />
+      <option name="project" value="LOCAL" />
+      <updated>1663315179924</updated>
+    </task>
+    <option name="localTasksCounter" value="190" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1326636000" />
+    <option name="totallyTimeSpent" value="1326927000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1194,9 +1195,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47916666" weight="0.2713348" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.47916666" visible="true" weight="0.2713348" />
       <window_info id="Structure" order="1" sideWeight="0.5208333" side_tool="true" weight="0.21334793" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1206,7 +1206,7 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.29682365" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32321042" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49791956" visible="true" weight="0.29791895" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49791956" weight="0.29791895" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39649507" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -1262,7 +1262,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="프로그래머스 모의고사2회  1,2,3번 (3/3) 및 백준 16948번 품" />
     <MESSAGE value="1174,2262,3980번 품" />
     <MESSAGE value="16985번 품" />
     <MESSAGE value="20005,20365,7569번 품" />
@@ -1287,7 +1286,8 @@
     <MESSAGE value="프로그래머스 여러 문제 및 sql 여러문제 품" />
     <MESSAGE value="11123번 품" />
     <MESSAGE value="프로그래머스 여러문제 품" />
-    <option name="LAST_COMMIT_MESSAGE" value="프로그래머스 여러문제 품" />
+    <MESSAGE value="2292,7682,9663번 품" />
+    <option name="LAST_COMMIT_MESSAGE" value="2292,7682,9663번 품" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1662,8 +1662,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BaekJoon_7682/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        <state relative-caret-position="32">
+          <caret line="7" selection-start-line="7" selection-end-line="9" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
