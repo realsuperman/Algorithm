@@ -31,22 +31,11 @@ public class Main {
         while(checkArray()){
             cheeseCnt = countCheese();
             simulation();
-            print();
             days++;
-            break;
         }
 
         System.out.println(days);
         System.out.println(cheeseCnt);
-    }
-
-    public static void print(){
-        for(int i=0;i<N;i++){
-            for(int j=0;j<M;j++){
-                System.out.print(array[i][j]+" ");
-            }
-            System.out.println();
-        }
     }
 
     public static void simulation(){
@@ -64,8 +53,8 @@ public class Main {
                 int y = v.y+dy[i];
                 if(x<0 || x>=N || y<0 || y>=M || check[x][y]) continue;
 
-                queue.add(new V(x,y));
                 if(array[x][y]) banList.add(new V(x,y));
+                else queue.add(new V(x,y));
                 check[x][y]=true;
             }
         }
