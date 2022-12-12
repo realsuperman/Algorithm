@@ -30,17 +30,19 @@ public class Main{
 
         while(!queue.isEmpty()){
             V v = queue.remove();
-            StringBuilder temp = new StringBuilder(String.valueOf(v.v));
-            if(v.v == target) {sb.append(v.command); break;}
 
+            StringBuilder temp = new StringBuilder(String.valueOf(v.v));
+            if(v.v == target) {sb.append(v.command+"\n"); break;}
 
             int value = ((v.v*2)%10000);
             checkMethod(queue, v, value,"D");
 
-            value = v.v-1;
-            if(value==0) value=9999;
+            value = v.v;
+            if(value == 0) value=9999;
+            else if(value-1 >= 0 ) value=value-1;
             checkMethod(queue, v, value,"S");
 
+            while(temp.length()<4) temp.insert(0,"0");
             int v1 = temp.charAt(0)-'0';
             int v2 = temp.charAt(1)-'0';
             int v3 = temp.charAt(2)-'0';
@@ -55,10 +57,12 @@ public class Main{
 
     private static void checkMethod(Queue<V> queue, V v, int value, String op) {
         if(!check[value]){
+            StringBuilder temp = new StringBuilder();
+            for(int i=0;i<v.command.length();i++) temp.append(v.command.charAt(i));
+
             check[value]=true;
-            v.command.append(op);
-            queue.add(new V(value,v.command));
-            v.command.deleteCharAt(v.command.length()-1);
+            temp.append(op);
+            queue.add(new V(value,temp));
         }
     }
 
