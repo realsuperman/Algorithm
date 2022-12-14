@@ -14,9 +14,18 @@ public class Main {
         String[] str = br.readLine().split(" ");
         int from = Integer.parseInt(str[0]);
         int to = Integer.parseInt(str[1]);
-        int[][] check = new int[100001][1];
-        for(int i=0;i<=100000;i++) check[i][0]=Integer.MAX_VALUE;
-        check[from][0]=Integer.MIN_VALUE;
+        if(from>to){
+            System.out.println(from-to);
+            for(int i=from;i>=0;i--){
+                System.out.print(i+" ");
+                if(i==to) break;
+            }
+            System.out.println();
+            return;
+        }
+
+        boolean[] check = new boolean[100001];
+        check[from]=true;
 
         Queue<V> queue = new LinkedList<>();
         List<Integer> temp = new ArrayList<>();
@@ -32,9 +41,10 @@ public class Main {
                 break;
             }
 
-            addQueue(v.value+1,check,v.time+1,queue,v.list);
-            addQueue(v.value-1,check,v.time+1,queue,v.list);
-            addQueue(v.value*2,check,v.time+1,queue,v.list);
+
+            if(checkMethod(v.value+1,check)){List<Integer> paste = new ArrayList<>(); for(int val : v.list) paste.add(val); paste.add(v.value+1); queue.add(new V(v.value+1,v.time+1,paste)); }
+            if(checkMethod(v.value-1,check)){List<Integer> paste = new ArrayList<>(); for(int val : v.list) paste.add(val); paste.add(v.value-1); queue.add(new V(v.value-1,v.time+1,paste));}
+            if(checkMethod(v.value*2,check)){List<Integer> paste = new ArrayList<>(); for(int val : v.list) paste.add(val); paste.add(v.value*2); queue.add(new V(v.value*2,v.time+1,paste));}
 
         }
 
@@ -44,14 +54,12 @@ public class Main {
         System.out.println(sb);
     }
 
-    public static void addQueue(int value, int[][] check, int time, Queue<V> queue, List<Integer> copy ){
-        if(value>=0 && value<=100000 && check[value][0]>time){
-            List<Integer> paste = new ArrayList<>();
-            for(int v : copy) paste.add(v);
-            paste.add(value);
-            check[value][0]=time;
-            queue.add(new V(value,time,paste));
+    public static boolean checkMethod(int value, boolean[] check){
+        if(value>=0 && value<=100000 && !check[value]){
+            check[value]=true;
+            return true;
         }
+        return false;
     }
 }
 
