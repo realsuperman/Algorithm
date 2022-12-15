@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="188f853f-cb70-4cf7-825c-47e6e9db8704" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BaekJoon_14226/retry/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BaekJoon_13913/retry/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BaekJoon_13913/retry/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BaekJoon_14226/retry/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BaekJoon_14226/retry/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BaekJoon_14226/retry/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+            <state relative-caret-position="752">
+              <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -186,6 +185,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -239,12 +240,18 @@
               <item name="BaekJoon_14226" type="462c0819:PsiDirectoryNode" />
               <item name="retry" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="BaekJoon_14226" type="462c0819:PsiDirectoryNode" />
+              <item name="retry" type="462c0819:PsiDirectoryNode" />
+              <item name="Main.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -849,14 +856,11 @@
       <workItem from="1670844989914" duration="1000" />
       <workItem from="1670924835336" duration="3474000" />
       <workItem from="1670931653757" duration="9000" />
-      <workItem from="1671009923478" duration="3486000" />
-    </task>
-    <task id="LOCAL-00157" summary="6443번 품">
-      <created>1659167265676</created>
-      <option name="number" value="00157" />
-      <option name="presentableId" value="LOCAL-00157" />
-      <option name="project" value="LOCAL" />
-      <updated>1659167265680</updated>
+      <workItem from="1671009923478" duration="3510000" />
+      <workItem from="1671013767679" duration="67000" />
+      <workItem from="1671017656877" duration="3000" />
+      <workItem from="1671096451753" duration="34000" />
+      <workItem from="1671096651397" duration="17000" />
     </task>
     <task id="LOCAL-00158" summary="3107번 품">
       <created>1659260816507</created>
@@ -1194,11 +1198,18 @@
       <option name="project" value="LOCAL" />
       <updated>1670928323643</updated>
     </task>
-    <option name="localTasksCounter" value="206" />
+    <task id="LOCAL-00206" summary="13913번 다시품 BFS유형">
+      <created>1671013687112</created>
+      <option name="number" value="00206" />
+      <option name="presentableId" value="LOCAL-00206" />
+      <option name="project" value="LOCAL" />
+      <updated>1671013687113</updated>
+    </task>
+    <option name="localTasksCounter" value="207" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1374950000" />
+    <option name="totallyTimeSpent" value="1375095000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1213,7 +1224,7 @@
     <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47916666" weight="0.297593" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.47916666" visible="true" weight="0.31728664" />
       <window_info id="Structure" order="1" sideWeight="0.5208333" side_tool="true" weight="0.21334793" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1279,7 +1290,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="11724,15658,16197,18111,18428,2210,5014번 품" />
     <MESSAGE value="11060,1303,1926,2688,9507번 품" />
     <MESSAGE value="프로그래머스 3문제 및 SQL 관련 문제 많이 품" />
     <MESSAGE value="프로그래머스 여러 문제 및 SQL 관련 문제 많이 품" />
@@ -1304,7 +1314,8 @@
     <MESSAGE value="5427번 품 9019번 푸는 중(BFS 다시 품)" />
     <MESSAGE value="11559,9019번 품 BFS(다시품)" />
     <MESSAGE value="13913번은 푸는 중, 12851번 품" />
-    <option name="LAST_COMMIT_MESSAGE" value="13913번은 푸는 중, 12851번 품" />
+    <MESSAGE value="13913번 다시품 BFS유형" />
+    <option name="LAST_COMMIT_MESSAGE" value="13913번 다시품 BFS유형" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1718,8 +1729,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BaekJoon_14226/retry/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        <state relative-caret-position="752">
+          <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
