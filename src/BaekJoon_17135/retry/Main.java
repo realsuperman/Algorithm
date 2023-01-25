@@ -3,10 +3,7 @@ package BaekJoon_17135.retry;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.PriorityQueue;
-import java.util.Queue;
+import java.util.*;
 
 public class Main {
     static int N,M,D;
@@ -49,15 +46,20 @@ public class Main {
 
         // x -> N, y-> list값
         while(isEnd(temp)){
-            List<V> target = new ArrayList<>();
+            Set<String> set = new HashSet<>();
 
-            for(int v : list) target.add(attack(N,v,temp));
-            cnt+=target.size();
-            for(V v : target) temp[v.x][v.y]=0;
+            for(int v : list){
+                V value = attack(N,v,temp);
+                if(value!=null) set.add(value.x+","+value.y);
+            }
+
+            cnt+=set.size();
+            for(String v : set){
+                String[] str = v.split(",");
+                temp[Integer.parseInt(str[0])][Integer.parseInt(str[1])]=0;
+            }
             down(temp);
-
         }
-
         MAX = MAX<cnt?cnt:MAX;
     }
 
