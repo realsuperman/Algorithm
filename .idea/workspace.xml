@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="188f853f-cb70-4cf7-825c-47e6e9db8704" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BaekJoon_18111/retry/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/BaekJoon_2504/retry/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -38,20 +37,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BaekJoon_2504/retry/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="823">
+              <caret line="83" column="1" selection-start-line="83" selection-start-column="1" selection-end-line="83" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BaekJoon_18111/retry/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="823">
-              <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+            <state relative-caret-position="928">
+              <caret line="60" column="1" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -174,14 +176,14 @@
         <option value="$PROJECT_DIR$/src/BaekJoon_1213/retry/Main.java" />
         <option value="$PROJECT_DIR$/src/BaekJoon_13335/retry/Main.java" />
         <option value="$PROJECT_DIR$/src/BaekJoon_19583/retry/Main.java" />
-        <option value="$PROJECT_DIR$/src/BaekJoon_2504/retry/Main.java" />
         <option value="$PROJECT_DIR$/src/BaekJoon_18111/retry/Main.java" />
+        <option value="$PROJECT_DIR$/src/BaekJoon_2504/retry/Main.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="975" />
+    <option name="x" value="-26" />
+    <option name="width" value="974" />
     <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -909,14 +911,9 @@
       <workItem from="1675673228352" duration="2804000" />
       <workItem from="1675678376332" duration="20000" />
       <workItem from="1675855957847" duration="1000" />
-      <workItem from="1675936820639" duration="240000" />
-    </task>
-    <task id="LOCAL-00178" summary="프로그래머스 3문제 및 SQL 관련 문제 많이 품">
-      <created>1660988553887</created>
-      <option name="number" value="00178" />
-      <option name="presentableId" value="LOCAL-00178" />
-      <option name="project" value="LOCAL" />
-      <updated>1660988553887</updated>
+      <workItem from="1675936820639" duration="268000" />
+      <workItem from="1676182596409" duration="3000" />
+      <workItem from="1676278251077" duration="13000" />
     </task>
     <task id="LOCAL-00179" summary="프로그래머스 여러 문제 및 SQL 관련 문제 많이 품">
       <created>1661079208006</created>
@@ -1254,11 +1251,18 @@
       <option name="project" value="LOCAL" />
       <updated>1675677622275</updated>
     </task>
-    <option name="localTasksCounter" value="227" />
+    <task id="LOCAL-00227" summary="18111번 품">
+      <created>1675937082560</created>
+      <option name="number" value="00227" />
+      <option name="presentableId" value="LOCAL-00227" />
+      <option name="project" value="LOCAL" />
+      <updated>1675937082561</updated>
+    </task>
+    <option name="localTasksCounter" value="228" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1420624000" />
+    <option name="totallyTimeSpent" value="1420668000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1270,7 +1274,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="975" height="1039" extended-state="0" />
+    <frame x="-26" y="0" width="974" height="1039" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47916666" weight="0.44918033" />
@@ -1339,7 +1343,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="3055번품, 5427번 푸는 중(BFS 유형 다시 품)" />
     <MESSAGE value="5427번 품 9019번 푸는 중(BFS 다시 품)" />
     <MESSAGE value="11559,9019번 품 BFS(다시품)" />
     <MESSAGE value="13913번은 푸는 중, 12851번 품" />
@@ -1364,7 +1367,8 @@
     <MESSAGE value="20058번 다시 품" />
     <MESSAGE value="17413,1966,3085 번 다시 품" />
     <MESSAGE value="1213,13335,19583 번 다시 품" />
-    <option name="LAST_COMMIT_MESSAGE" value="1213,13335,19583 번 다시 품" />
+    <MESSAGE value="18111번 품" />
+    <option name="LAST_COMMIT_MESSAGE" value="18111번 품" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1758,15 +1762,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BaekJoon_2504/retry/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="823">
+          <caret line="83" column="1" selection-start-line="83" selection-start-column="1" selection-end-line="83" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BaekJoon_18111/retry/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="823">
-          <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+        <state relative-caret-position="928">
+          <caret line="60" column="1" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
